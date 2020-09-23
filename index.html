@@ -16,13 +16,10 @@
     <section class="container section-box">
         <div class="row">
             <div class="col-md-4 home-text">
-                <h1>Time for Taiwan</h1>
+                <h1>#Time for Taiwan</h1>
                 <p>
-                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos
+                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eosnvidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos
                 </p>
-                <div class="text-center">
-                <a href="index.html#map" class="btn btn-lg btn-outline-warning">START!</a>
-                </div>
             </div> 
             <div class="col-md-8">
                 <img src="assets/image/hero.jpg" class="img-responsive hero-image" alt="Taipei, Taiwan">
@@ -33,6 +30,17 @@
     <section class="container section-box">
         <div id="map"></div>
     </section>
+    <section class="container section-box">
+         <div class="center-form">
+                <form onsubmit="return sendMail(this);" method="POST">
+                    <input type="text" name="name" class="form-control" id="fullname" placeholder="Name" required/>
+                    <input type="text" name="emailaddress" class="form-control" id="emailaddress" placeholder="Email" required/>
+                    <textarea rows="5" name="projectsummary" class="form-control" id="projectsummary" placeholder="Project Description" required></textarea>
+                    <button type="submit" class="btn btn-secondary center-block">Send Project Request</button>
+                </form>
+        </div>
+    </section>
+
     <footer>
     </footer>
     <script defer src="https://maps.googleapis.com/maps/api/js?libraries=localContext&v=beta&key=AIzaSyDVEly0TRzO_ZK1hnjmHItf4Z0QcFmVkcU&callback=initMap"></script>
