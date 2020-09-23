@@ -2,14 +2,15 @@ let map;
     function initMap() {
       const localContextMapView = new google.maps.localContext.LocalContextMapView({
         element: document.getElementById('map'),
-        placeTypePreferences: ['restaurant', 'tourist_attraction'],
-        maxPlaceCount: 12,
+        placeTypePreferences: ['restaurant', 'tourist_attraction', 'bakery', 'book_store', 'cafe', 'night_club', 'park', 'shopping_mall', 'bar'],
+        maxPlaceCount: 10,
       });
 
       map = localContextMapView.map;
 
       map.setOptions({
-        center: {lat: 24, lng: 120},
-        zoom: 7
+        center: {lat: 25.033964, lng: 121.564468},
+        zoom: 13
       });
     }
+    
