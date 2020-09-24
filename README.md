@@ -12,7 +12,7 @@ At the moment, the form in "Contact" page is not functional as it is not connect
 2. what they actually need: an interactive website for users
 3. what they don't know they need: other possible ways to interact with the website, such as a contact form
 ### Skeleton Plane:
-The skeleton plane was created using Balsamiq Wireframes.
+The skeleton plane was created using Balsamiq Wireframes.<br />
 <img src="wireframe.png" alt="wireframe" height="200" width="200"/>
 
 ### Strategy Plan:
