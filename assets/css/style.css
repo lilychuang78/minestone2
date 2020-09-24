@@ -9,10 +9,9 @@
 }
 
 .hero-image {
-	width: 100%;
-	height: auto;
-	float: left;
-}
+        width: 100%;
+	    height: auto;
+    }
 
 .home-text {
 	margin-top: 3rem;
@@ -43,4 +42,15 @@ div#map {
 
 button{
     margin-bottom: 1rem;
+}
+
+@media(min-width: 768px) {
+    .hero-image {
+        margin-top: 20rem;
+    }
+}
+@media(min-width: 1024px) {
+    .hero-image {
+        margin-top: 10rem;
+    }
 }
