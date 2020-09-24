@@ -13,7 +13,7 @@ At the moment, the form in "Contact" page is not functional as it is not connect
 3. what they don't know they need: other possible ways to interact with the website, such as a contact form
 ### Skeleton Plane:
 The skeleton plane was created using Balsamiq Wireframes.
-<img src="wireframe.png" alt="wireframe"/>
+<img src="wireframe.png" alt="wireframe" height="200" width="200"/>
 
 ### Strategy Plan:
 1. what does the user expect? information, map and photos of Taiwan
