@@ -23,10 +23,7 @@ The skeleton plane was created using Balsamiq Wireframes.<br />
 The website has one page which is divided with three sections: brief information, Google Place API and a contact form
 ## Development Tools:
 Balsamiq Wireframes<br />
-Bracket<br />
 Bootstrap<br />
-Bootsnip<br />
-Coolors<br />
 CSS3<br />
 Emailjs<br />
 Freeformater.com<br />
