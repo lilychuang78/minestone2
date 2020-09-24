@@ -18,7 +18,15 @@
             <div class="col-md-4 home-text">
                 <h1>#Time for Taiwan</h1>
                 <p>
-                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eosnvidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos
+                Taiwan is one of the safest place and we have the best public health system in the world. 
+                We are also known as the Covid-19 free country a the moment. 
+                In 2019, Taiwan was ranked as Nr.1 place for expats to live. 
+                We have the first femail president in Asia and a transgenter IT Minister in the world. 
+                Taiwan is a democratic and liberal country. 
+                We are multicultrual and we respect difference of individuals. 
+                Despite not being recognized by most nations and excluded by the world, 
+                Taiwanese people are considered the most friendly people. 
+                We are genuinely there to help.
                 </p>
             </div> 
             <div class="col-md-8">
@@ -30,13 +38,13 @@
     <section class="container section-box">
         <div id="map"></div>
     </section>
-    <section class="container section-box">
+    <section class="container col-md-6 section-box">
          <div class="center-form">
                 <form onsubmit="return sendMail(this);" method="POST">
                     <input type="text" name="name" class="form-control" id="fullname" placeholder="Name" required/>
                     <input type="text" name="emailaddress" class="form-control" id="emailaddress" placeholder="Email" required/>
-                    <textarea rows="5" name="projectsummary" class="form-control" id="projectsummary" placeholder="Project Description" required></textarea>
-                    <button type="submit" class="btn btn-secondary center-block">Send Project Request</button>
+                    <textarea rows="5" name="projectsummary" class="form-control" id="projectsummary" placeholder="Any questions about Taiwan is welcome!" required></textarea>
+                    <button type="submit" class="btn btn-lg btn-secondary center-block">Send!</button>
                 </form>
         </div>
     </section>
@@ -45,5 +53,6 @@
     </footer>
     <script defer src="https://maps.googleapis.com/maps/api/js?libraries=localContext&v=beta&key=AIzaSyDVEly0TRzO_ZK1hnjmHItf4Z0QcFmVkcU&callback=initMap"></script>
     <script src="assets/js/map.js"> </script>
+    <script src="assets/js/email.js"> </script>
    </body>
 </html>

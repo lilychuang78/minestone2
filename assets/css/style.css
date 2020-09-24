@@ -23,7 +23,7 @@
 }
 
 .home-text p {
-	font-size: 1.8rem;
+	font-size: 1.6rem;
 	margin-top: 1.5rem;
 }
 
@@ -32,3 +32,15 @@ div#map {
     width: 100%;
 }
 
+.center-form{
+   	text-align: center;
+}
+
+.form-control{
+    font-size: 1.5rem;
+    margin: 1rem;
+}
+
+button{
+    margin-bottom: 1rem;
+}
