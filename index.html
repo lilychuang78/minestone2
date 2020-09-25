@@ -1,14 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-      <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
-      <link rel="stylesheet" href="assets/css/style.css" type="text/css"/>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css" type="text/css"/>
         <script type="text/javascript"
             src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js">
         </script>
@@ -18,9 +17,18 @@
             })();
         </script>
       <title>#Time for Taiwan</title>
-   </head>
-   <body>
-    <section class="container section-box">
+</head>
+<body>
+<div class="container">
+  <ul class="nav nav-pills">
+    <li class="active"><a data-toggle="pill" href="#home">Home</a></li>
+    <li><a data-toggle="pill" href="#menu1">Google Map</a></li>
+    <li><a data-toggle="pill" href="#menu2">Contact</a></li>
+  </ul>
+  
+  <div class="tab-content">
+    <div id="home" class="tab-pane fade in active">
+      <section class="container section-box">
         <div class="row">
             <div class="col-md-4 home-text">
                 <h1>#Time for Taiwan</h1>
@@ -28,9 +36,8 @@
                 Taiwan is one of the safest place and we have the best public health system in the world. 
                 We are also known as the Covid-19 free country a the moment. 
                 In 2019, Taiwan was ranked as Nr.1 place for expats to live. 
-                We have the first female president in Asia and a transgender IT Minister in the world. 
-                Taiwan is a democratic and liberal country. 
-                We are multicultrual and we respect difference of individuals. 
+                We have a female president, a transgender IT Minister and legal marriage for homosexual people.              Taiwan is a democratic and liberal country. 
+                We are multicultrual and we respect individual differences. 
                 Despite not being recognized by most nations and excluded by the world, 
                 Taiwanese people are considered to be one of the most friendly people. 
                 We are genuinely there to help when you need.
@@ -42,24 +49,39 @@
             </div>
          </div>
     </section>
-    <section class="container section-box">
+    </div>
+    <div id="menu1" class="tab-pane fade">
+         <section class="container section-box">
         <div id="map"></div>
     </section>
-    <section class="container col-md-6 section-box">
-         <div class="center-form">
+    </div>
+    <div id="menu2" class="tab-pane fade">
+      <section class="container section-box">
+        <div class="row">
+            <div class="col-md-6">
+                <img src="assets/image/nightmarket.jpg" class="img-responsive nightmarket-image" alt="Taipei, Taiwan">
+                <!--image downloaded from Unsplash:https://unsplash.com/photos/6rEPAbrXNaY-->
+            </div>
+            <div class="center-form col-md-6">
+                <h2>#Time for Taiwan</h2>
                 <form onsubmit="return sendMail(this);">
                     <input type="text" name="name" class="form-control" id="fullname" placeholder="Name" required/>
                     <input type="text" name="emailaddress" class="form-control" id="emailaddress" placeholder="Email" required/>
                     <textarea rows="5" name="summary" class="form-control" id="summary" placeholder="Any questions about Taiwan is welcome!" required></textarea>
                     <button type="submit" class="btn btn-lg btn-secondary center-block">Send!</button>
                 </form>
+            </div>
         </div>
     </section>
 
-    <footer>
+    </div>
+	    <footer>
     </footer>
     <script defer src="https://maps.googleapis.com/maps/api/js?libraries=localContext&v=beta&key=AIzaSyDVEly0TRzO_ZK1hnjmHItf4Z0QcFmVkcU&callback=initMap"></script>
     <script src="assets/js/map.js"> </script>
     <script src="assets/js/email.js"> </script>
    </body>
 </html>
+
+  </div>
+</div>
