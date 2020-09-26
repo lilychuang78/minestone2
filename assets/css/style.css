@@ -45,20 +45,19 @@ div#map {
 }
 
 button {
-	margin-bottom: 1rem;
+	margin: 1rem 0;
 	color: #ffffff;
 	background-color: #337ab7;
 	font-size: 1rem;
+    transition: background-color 0.3s, color 0.3s;
 }
 
-.btn.focus,
-.btn:focus,
-.btn:hover {
+button:hover,
+button:active {
 	color: #23527c;
 	background-color: lightgray;
 	text-decoration: none;
 }
-
 
 /*media query*/
 
