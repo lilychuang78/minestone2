@@ -19,14 +19,14 @@ The skeleton plane was created using Balsamiq Wireframes.<br />
 2. who are the users? people who wants to visit Taiwan
 3. does it offer what users want? users are able to click on the map and see further photos
 ### Structure Plane:
-The website has one page which is divided with three taps which functions as a navigation menu.<br />
-When a user clicks on a tap a section of "Home", "Map" and "Conact" appears.
+The website has one page which is divided with three tabs which functions as a navigation menu.<br />
+When a user clicks on a tab a section of "Home", "Map" and "Contact" appears.
 ## Development Tools:
 0to255.com<br />
 Balsamiq Wireframes<br />
 Bootstrap<br />
 CSS3<br />
-Emailjs<br />
+Email.js<br />
 Freeformater.com<br />
 Github<br />
 Gitpod<br />
@@ -37,7 +37,7 @@ Unsplash<br />
 w3schools.com<br />
 
 ## Future Development
-potentially the website can be linked with other relevant touristic websites
+potentially the website can be linked with other relevant tourist websites
 
 ## Testing
 The functionality and visiual display of the website were tested with Github locally and Google Chrome developer tools.<br />
@@ -49,7 +49,7 @@ Commands including "git add ." to add the files, "git commit -m 'message'" to st
 
 The repository can be found here: https://lilychuang78.github.io/minestone2/
 ## Credits
-I want to specially thank my mentor Spencer Barriball and the tutors online who helped me constantly.
+I want to specially thank my mentor Spencer Barriball and the tutors online who helped me when needed.
 
 ### Content
 README.md was inspired by
@@ -66,6 +66,6 @@ Code institute:
 https://github.com/Code-Institute-Solutions/InteractiveFrontendDevelopment-Resume/tree/master/03-SendingEmailsUsingEmailJS/06-sending_emails
 
 ### Media
-- The images used on "Home" and "Contact" page were downloaded from Unsplash:<br />
+- The images used on "Home" and "Contact" page were downloaded from Unsplash and free to use online:<br />
 https://unsplash.com/photos/au3CYbd7vCU<br />
 https://unsplash.com/photos/6rEPAbrXNaY
