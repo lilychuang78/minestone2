@@ -67,5 +67,5 @@ https://github.com/Code-Institute-Solutions/InteractiveFrontendDevelopment-Resum
 
 ### Media
 - The images used on "Home" and "Contact" page were downloaded from Unsplash:<br />
-https://unsplash.com/photos/au3CYbd7vCU
+https://unsplash.com/photos/au3CYbd7vCU<br />
 https://unsplash.com/photos/6rEPAbrXNaY
